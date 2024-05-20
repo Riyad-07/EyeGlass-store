@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/101cdeab15.js" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="css/slick.css">
+ <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+  <!-- ================================================================= -->
+  <!--                  navber                                           -->
+  <!--=================================================================  -->
+
+  <div class="flex justify-between items-center   max-w-[1620px] mx-auto">
+    <div class="py-30px ">
+      <a class="btn btn-ghost text-xl">
+        <img src="images/Logo.png" alt="images/Logo.png">
+      </a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="flex  px-1 gap-x-[30px]">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About Us</a>
+        </li>
+        <li>
+            <a href="#">Products</a>
+        </li>
+        <li>
+            <a href="#">Products</a>
+        </li>
+        <li>
+            <a href="#">Features</a>
+        </li>
+        <li>
+            <a href="#">Reviews</a>
+        </li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="flex gap-x-5">
+      <a class="btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </a>
+      <a class="btn">
+        <i class="fa-solid fa-user"></i>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- ================================================================= -->
+  <!--                  hero section                                           -->
+  <!--=================================================================  -->
+
+  <div class="slider-1 slider   bg-[#EAEAEA]">
+    <div class="flex justify-center items-center relative">
+      <div class="absolute top-[315px] left-[220px] max-w-[556px]">
+        <h2 class="text-[54px] font-bold ">Personalized Eyeglass
+          Shopping</h2>
+          <button class="text-xl py-[14px] px-10 bg-[#383838] text-white mt-[52px]">by now</button>
+      </div>
+        <img class="w-[868px] h-[860px] mt-[58px] ml-[240px]" src="images/Image (1).png" alt="">
+    </div>
+    <div class="flex justify-center items-center relative">
+      <div class="absolute top-[315px] left-[220px] max-w-[556px]">
+        <h2 class="text-[54px] font-bold ">Personalized Eyeglass
+          Shopping</h2>
+          <button class="text-xl py-[14px] px-10 bg-[#383838] text-white mt-[52px]">by now</button>
+      </div>
+        <img class="w-[868px] h-[860px] mt-[58px] ml-[240px]" src="images/Image (1).png" alt="">
+    </div>
+    <div class="flex justify-center items-center relative">
+      <div class="absolute top-[315px] left-[220px] max-w-[556px]">
+        <h2 class="text-[54px] font-bold ">Personalized Eyeglass
+          Shopping</h2>
+          <button class="text-xl py-[14px] px-10 bg-[#383838] text-white mt-[52px] ">by now</button>
+      </div>
+        <img class="w-[868px] h-[860px] mt-[58px] ml-[240px]" src="images/Image (1).png" alt="">
+    </div>
+   
+</div>
+  
+  </div>
+
+
+
+  <!-- ================================================================= -->
+  <!--                  navber                                           -->
+  <!--=================================================================  -->
+
+
+  
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider-1').slick({
+          arrows: false,
+           dots: true,
+           infinite: true,
+  //          autoplay: true,
+  // autoplaySpeed: 6000,
+        });
+      });
+    </script>
 </body>
 </html>
